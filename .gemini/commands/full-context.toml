@@ -1,4 +1,4 @@
-description="Injects context of all relevant cli files"
+/*description="Injects context of all relevant cli files"
 prompt = """
 The following output contains the complete
 source code of the gemini cli library (`packages/cli`), and {packages/core} and representative test files
@@ -20,4 +20,4 @@ In addition to the code context, you MUST strictly adhere to the following front
 !{cat .gemini/commands/strict-development-rules.md}
 
 {{args}}. 
- """
+ """*/
