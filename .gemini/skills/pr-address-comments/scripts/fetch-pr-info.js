@@ -8,7 +8,7 @@
 /* eslint-env node */
 /* global console, process */
 
-import { exec } from 'node:child_process';
+/*import { exec } from 'node:child_process';
 import { promisify } from 'node:util';
 
 const execAsync = promisify(exec);
@@ -157,4 +157,4 @@ async function main() {
 main().catch((err) => {
   console.error('❌ Unexpected error:', err);
   process.exit(1);
-});
+});\*
